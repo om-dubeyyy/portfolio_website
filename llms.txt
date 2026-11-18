@@ -1,0 +1,31 @@
+# Om Dubey
+
+> Founder's Office (GTM & RevOps) at Lucidity, Gurugram, India. A GTM operator who builds AI agents and automations.
+
+omdubey.com is a single page. All of it is in plain Markdown below, the same text as the { } (Agent view) button on the page.
+
+## Resume
+- [Om Dubey, in Markdown](https://omdubey.com/om-dubey.md): now, experience, education, selected work, skills, tools, kind words and contact
+
+## Case studies
+- [GTM Knowledge Base](https://omdubeyyy.notion.site/GTM-Knowledge-Base-and-MCP-Server-4152abc044ce8123a6aaeaf305aa21e1): Lucidity's internal GTM knowledge base: accounts, deals, customers and playbooks in one place, with a chatbot that runs SQL and an MCP server so AI agents read the same data as the reps. I took over the codebase and led v1.2 onward.
+- [AI Account Research Engine](https://omdubeyyy.notion.site/AI-Account-Research-Engine-4152abc044ce816cb137e2a320deb628): A Claude-skill pipeline that maps any target account (org chart, ranked decision makers, cloud provider with evidence, why-now signals) and writes the brief back to Google Docs, HubSpot and the GTM knowledge base in one run.
+- [HubSpot Data Quality System](https://omdubeyyy.notion.site/HubSpot-Data-Quality-System-4152abc044ce81a79275ceb963c616f5): An adherence process and a set of automations that made HubSpot a source of truth the forecast and leadership could rely on.
+- [Founder-Led Growth Engine](https://omdubeyyy.notion.site/Founder-Led-Growth-Engine-4152abc044ce81aeb12fd34359c4080b): The Founder's LinkedIn run as a data-backed system: strategy, content, a daily AI radar for engagement, outreach and an automated weekly report.
+- [Reddit + AEO Programme](https://omdubeyyy.notion.site/Reddit-and-AEO-Programme-4152abc044ce81e89158fcc89651f0a9): A community-led growth programme on Reddit, plus a baseline of whether AI answer engines (Claude, OpenAI, Gemini, Perplexity) recommend Lucidity for real buyer questions.
+- [WhatsApp Support Automation](https://omdubeyyy.notion.site/WhatsApp-Customer-Support-Automation-27d2abc044ce802081ffcc0b80f7d54b): An agentic automation that handles most incoming WhatsApp queries for a D2C brand: order tracking, returns, exchanges, address changes, with a Connect Agent fallback.
+- [Inventory Management System](https://omdubeyyy.notion.site/Inventory-Management-System-26a2abc044ce8023b4cdcddcd459c319): A full inventory and dispatch system for a premium D2C streetwear brand. Built without a tech team, against a 4-week deadline.
+- [Event Ops Automation & System](https://omdubeyyy.notion.site/Event-Ops-Automation-System-4152abc044ce81fa9b7fe1a44685601b): An event-ops system and the project management around it, first run for a cross-team launch at MS Ignite 2026: a master contact book, a nightly n8n sync, process and outcome metrics, and one simple attribution rule.
+- [Commission Automation](https://omdubeyyy.notion.site/Commission-Automation-4152abc044ce8189a8f8f05f3b786540): A workflow and a system that automate monthly commissions for AEs, SEs and partners, which used to be calculated by hand. Deal data comes from HubSpot, Apps Script runs the monthly steps, and the system was built with Claude and runs on Vercel.
+- [Demo Auto-assignment](https://omdubeyyy.notion.site/Demo-Auto-assignment-Feature-c5f1ee3f8f9f481da1158d1cab327678): Backend logic that assigns demo classes across multiple variables, plus automated reports for prospective customers.
+- [Event Management System](https://omdubeyyy.notion.site/Event-Management-System-530b966820b94f61ac1a12f3ab6ccc62): A tool to create, manage and edit events, built for better lead generation.
+- [NPS & Feedback Structure](https://omdubeyyy.notion.site/NPS-Feedback-Structure-a9dd11681d2648b5829e83dd6e429bc4): A process to capture, record and analyse NPS and feedback from users.
+- [Sales Management Tool](https://omdubeyyy.notion.site/Sales-Management-System-4a5abadef86a404cb0c84e4fb3232de1): An internal tool to manage the sales pipeline, collect payments and onboard users.
+- [Lufthansa Mobile App](https://omdubeyyy.notion.site/Lufthansa-Mobile-App-a274962fc8214ebabf600f03c3bbc5f1): A self-initiated case study on how Lufthansa could solve problems faced by international travellers.
+
+## Elsewhere
+- [LinkedIn](https://www.linkedin.com/in/om-dubey/)
+- [Notion portfolio](https://omdubeyyy.notion.site/Om-Dubey-Portfolio-5eee76b192e44b649ba657a819cf7f5f)
+
+## Contact
+- Email: omdubeyyy@gmail.com

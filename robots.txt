@@ -1,4 +1,35 @@
+# AI assistants and search crawlers are welcome. The whole site is also in plain text:
+#   https://omdubey.com/llms.txt      (a short guide for AI tools)
+#   https://omdubey.com/om-dubey.md   (the full page as Markdown)
+
 User-agent: *
 Allow: /
-Allow: /sitemap.htm
-Sitemap: https://smithgajjar.dev/sitemap.xml
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://omdubey.com/sitemap.xml

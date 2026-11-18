@@ -1,433 +1,143 @@
-<html>
-  <head>
-    <title>404 Not Found</title>
-	</head>
-    <style>
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-* {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-}
-
-*:focus {
-  outline: none !important;
-}
-
-body, html {
-  height: 100%;
-}
-
-body {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  align-content: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  padding: 12px;
-  background: #343434;
-  color: white;
-  font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 24px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-}
-
-::-moz-selection {
-  background: none;
-}
-
-::selection {
-  background: none;
-}
-
-a {
-  display: block;
-  cursor: pointer;
-  -webkit-animation: pulseColor 1000ms linear 3100ms forwards;
-          animation: pulseColor 1000ms linear 3100ms forwards;
-  font-weight: 500;
-}
-a:hover b, a:focus b {
-  color: #F04F54;
-}
-a:active b {
-  color: #43CB9D;
-}
-
-svg {
-  width: 50px;
-  height: auto;
-}
-
-.crack {
-  position: relative;
-  z-index: 4;
-  margin-left: -50px;
-}
-.crack polyline {
-  fill: none;
-  stroke: #F04F54;
-  stroke-width: 10px;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-dasharray: 1649.099;
-  stroke-dashoffset: 1649.099;
-  -webkit-animation: drawStroke 1500ms ease-out 500ms forwards;
-          animation: drawStroke 1500ms ease-out 500ms forwards;
-}
-
-main {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  align-content: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-}
-main > div {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  align-content: center;
-  position: relative;
-  overflow: hidden;
-}
-main > div svg {
-  position: relative;
-  z-index: 1;
-}
-main > div svg polygon {
-  fill: #343434;
-}
-main > div span {
-  display: block;
-  position: relative;
-  z-index: 0;
-  padding: 0 12px;
-  line-height: 1.4;
-}
-main > div:first-child {
-  text-align: right;
-  z-index: 1;
-}
-main > div:first-child span:first-child {
-  opacity: 0;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  -webkit-animation: translateLeft 1000ms linear 1250ms forwards;
-          animation: translateLeft 1000ms linear 1250ms forwards;
-}
-main > div:first-child span:last-child {
-  opacity: 0;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  -webkit-animation: translateLeft 1000ms linear 1450ms forwards;
-          animation: translateLeft 1000ms linear 1450ms forwards;
-}
-main > div:first-child svg polygon {
-  -webkit-animation: removeFill 10ms ease-out 1600ms forwards;
-          animation: removeFill 10ms ease-out 1600ms forwards;
-}
-main > div:last-child {
-  z-index: 0;
-  margin-left: -50px;
-}
-main > div:last-child span:first-child {
-  opacity: 0;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-  -webkit-animation: translateRight 1000ms linear 1650ms forwards;
-          animation: translateRight 1000ms linear 1650ms forwards;
-}
-main > div:last-child span:last-child {
-  opacity: 0;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-  -webkit-animation: translateRight 1000ms linear 1850ms forwards;
-          animation: translateRight 1000ms linear 1850ms forwards;
-}
-
-@-webkit-keyframes drawStroke {
-  0% {
-    stroke-dashoffset: 1649.099;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes drawStroke {
-  0% {
-    stroke-dashoffset: 1649.099;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-@-webkit-keyframes removeFill {
-  0% {
-    fill: #343434;
-  }
-  100% {
-    fill: rgba(52, 52, 52, 0);
-  }
-}
-@keyframes removeFill {
-  0% {
-    fill: #343434;
-  }
-  100% {
-    fill: rgba(52, 52, 52, 0);
-  }
-}
-@-webkit-keyframes pulseColor {
-  0% {
-    color: white;
-  }
-  25% {
-    color: #43CB9D;
-  }
-  50% {
-    color: white;
-  }
-  75% {
-    color: #43CB9D;
-  }
-  100% {
-    color: white;
-  }
-}
-@keyframes pulseColor {
-  0% {
-    color: white;
-  }
-  25% {
-    color: #43CB9D;
-  }
-  50% {
-    color: white;
-  }
-  75% {
-    color: #43CB9D;
-  }
-  100% {
-    color: white;
-  }
-}
-/* https://goo.gl/v323yz */
-@-webkit-keyframes translateLeft {
-  0% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 150, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 150, 0, 0, 1);
-    opacity: 1;
-  }
-  7.61% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 69.561, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 69.561, 0, 0, 1);
-  }
-  11.41% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 39.355, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 39.355, 0, 0, 1);
-  }
-  15.12% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 17.801, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 17.801, 0, 0, 1);
-  }
-  18.92% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.02, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.02, 0, 0, 1);
-  }
-  22.72% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.661, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.661, 0, 0, 1);
-  }
-  30.23% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.852, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.852, 0, 0, 1);
-  }
-  50.25% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.282, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.282, 0, 0, 1);
-  }
-  70.27% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.519, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.519, 0, 0, 1);
-  }
-  100% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    opacity: 1;
-  }
-}
-@keyframes translateLeft {
-  0% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 150, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 150, 0, 0, 1);
-    opacity: 1;
-  }
-  7.61% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 69.561, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 69.561, 0, 0, 1);
-  }
-  11.41% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 39.355, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 39.355, 0, 0, 1);
-  }
-  15.12% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 17.801, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 17.801, 0, 0, 1);
-  }
-  18.92% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.02, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.02, 0, 0, 1);
-  }
-  22.72% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.661, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.661, 0, 0, 1);
-  }
-  30.23% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.852, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.852, 0, 0, 1);
-  }
-  50.25% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.282, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.282, 0, 0, 1);
-  }
-  70.27% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.519, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.519, 0, 0, 1);
-  }
-  100% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    opacity: 1;
-  }
-}
-/* https://goo.gl/p1Hnde */
-@-webkit-keyframes translateRight {
-  0% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -150, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -150, 0, 0, 1);
-    opacity: 1;
-  }
-  7.61% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -69.561, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -69.561, 0, 0, 1);
-  }
-  11.41% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -39.355, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -39.355, 0, 0, 1);
-  }
-  15.12% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -17.801, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -17.801, 0, 0, 1);
-  }
-  18.92% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.02, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.02, 0, 0, 1);
-  }
-  22.72% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.661, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.661, 0, 0, 1);
-  }
-  30.23% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.852, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.852, 0, 0, 1);
-  }
-  50.25% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.282, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.282, 0, 0, 1);
-  }
-  70.27% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.519, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.519, 0, 0, 1);
-  }
-  100% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    opacity: 1;
-  }
-}
-@keyframes translateRight {
-  0% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -150, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -150, 0, 0, 1);
-    opacity: 1;
-  }
-  7.61% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -69.561, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -69.561, 0, 0, 1);
-  }
-  11.41% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -39.355, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -39.355, 0, 0, 1);
-  }
-  15.12% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -17.801, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -17.801, 0, 0, 1);
-  }
-  18.92% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.02, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.02, 0, 0, 1);
-  }
-  22.72% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.661, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.661, 0, 0, 1);
-  }
-  30.23% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.852, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.852, 0, 0, 1);
-  }
-  50.25% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.282, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.282, 0, 0, 1);
-  }
-  70.27% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.519, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.519, 0, 0, 1);
-  }
-  100% {
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    opacity: 1;
-  }
-}
-  </style>
-  <body>
-   <main>
-  <div>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page not found · Om Dubey</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:wght@400..700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--page:#FFFFFF;--ink:#0A0A0A;--muted:#737373;--hair:#EBEBEB;--cta:#0A0A0A;--cta-fg:#FAFAFA;--dot:rgba(10,10,10,.10);
+  --m-line:#0A0A0A;--m-skin:#F4F4F4;--m-hair:#2B2B2B;--m-hair2:#8C8C8C;--m-side:#6E6E6E;--m-beard:#4A4A4A;--m-tee:#FFFFFF;--m-collar:#1C1C1C;--m-eye:#FFFFFF;--m-pupil:#0A0A0A;--m-glint:#FFFFFF;--m-teeth:#FFFFFF;--m-mouth:#262626;--m-tongue:#9C9C9C;--m-band:#1C1C1C;
+  color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--page:#0A0A0A;--ink:#FAFAFA;--muted:#A3A3A3;--hair:#262626;--cta:#FAFAFA;--cta-fg:#0A0A0A;--dot:rgba(250,250,250,.09);
+  --m-line:#FAFAFA;--m-skin:#262626;--m-hair:#0E0E0E;--m-hair2:#5A5A5A;--m-side:#2A2A2A;--m-beard:#141414;--m-tee:#1A1A1A;--m-collar:#050505;--m-eye:#F2F2F2;--m-pupil:#0A0A0A;--m-glint:#FFFFFF;--m-teeth:#EDEDED;--m-mouth:#050505;--m-tongue:#6A6A6A;--m-band:#050505;
+  color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--page) radial-gradient(var(--dot) 1px,transparent 1.2px) 0 0/22px 22px;color:var(--ink);font:400 16px/1.6 "TikTok Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+main{min-height:100%;display:grid;place-items:center;padding:48px max(20px,env(safe-area-inset-left,0px)) 48px max(20px,env(safe-area-inset-right,0px))}
+.box{display:flex;align-items:center;gap:40px;max-width:820px}
+.memoji{width:220px;height:auto;flex:none}
+.code{font:500 13px/1 "IBM Plex Mono",ui-monospace,Menlo,monospace;letter-spacing:.04em;color:var(--muted);margin:0 0 14px}
+h1{font-weight:600;font-size:clamp(34px,5vw,52px);line-height:1.08;letter-spacing:-.03em;margin:0 0 14px;text-wrap:balance}
+p{margin:0 0 8px;color:var(--muted);max-width:44ch}
+.row{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+a.btn{display:inline-flex;align-items:center;height:46px;padding:0 20px;border-radius:999px;font-weight:500;text-decoration:none;transition:transform .2s cubic-bezier(.2,.7,.2,1)}
+a.btn:hover{transform:translateY(-1px)}
+.btn-d{background:var(--cta);color:var(--cta-fg)}
+.btn-o{color:var(--ink);box-shadow:inset 0 0 0 1px var(--hair)}
+.mail{font:400 14px/1.4 "IBM Plex Mono",ui-monospace,Menlo,monospace;color:var(--muted);margin-top:18px;user-select:all}
+a:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+@media (max-width:640px){.box{flex-direction:column;align-items:flex-start;gap:20px}.memoji{width:150px}}
+</style>
+</head>
+<body>
+<main>
+  <div class="box">
+<svg class="memoji" viewBox="0 0 380 420" role="img" aria-label="Om's Memoji, eyebrows raised">
+<defs>
+  <clipPath id="mjClipL"><ellipse cx="-35" cy="0" rx="14" ry="13"/></clipPath>
+  <clipPath id="mjClipR"><ellipse cx="36" cy="0" rx="13" ry="13"/></clipPath>
+  <clipPath id="mjClipBody"><rect x="-80" y="-80" width="540" height="500"/></clipPath>
+  <clipPath id="mjClipM"><path d="M-26 46 C-8 42 18 42 34 45 C31 62 20 74 4 75 C-12 75 -23 63 -26 46 Z"/></clipPath>
+</defs>
+<g clip-path="url(#mjClipBody)" stroke="var(--m-line)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <g id="mjTee">
+    <path fill="var(--m-tee)" d="M66 250 C46 258 28 270 18 290 C8 312 6 350 6 436 L220 436 C218 384 217 330 212 302 C204 274 192 252 176 237 C148 262 94 268 66 250 Z"/>
+    <path fill="none" stroke-width="2.6" d="M68 318 C72 350 72 390 70 436"/>
+  </g>
+  <path id="mjNeck" fill="var(--m-skin)" d="M82 214 L80 254 C100 262 130 258 152 238 L150 208 Z"/>
+  <g id="mjCollar" fill="none">
+    <path stroke-width="16" d="M66 249 C92 270 146 266 177 236"/>
+    <path stroke="var(--m-collar)" stroke-width="9" d="M66 249 C92 270 146 266 177 236"/>
+  </g>
+  <g id="mjArm">
+    <path fill="var(--m-tee)" stroke="none" d="M170 236 C204 246 240 258 262 270 C272 276 278 282 280 288 C280 260 279 226 279 194 L322 192 C328 226 336 262 340 296 C344 324 342 346 326 354 C308 362 270 342 244 328 C232 322 222 314 214 304 C204 290 190 260 170 236 Z"/>
+    <path fill="none" d="M178 240 C208 250 240 258 262 270 C272 276 278 282 280 288 C280 260 279 226 279 194 L322 192 C328 226 336 262 340 296 C344 324 342 346 326 354 C308 362 270 342 244 328 C232 322 222 314 214 304"/>
+    <path fill="none" stroke-width="2.6" d="M214 304 C216 316 216 328 214 338"/>
+    <path fill="none" stroke-width="2.6" d="M283 302 C293 313 306 318 322 320"/>
+  </g>
+  <g id="mjHand">
+    <g fill="none">
+      <line x1="296" y1="122" x2="312" y2="76" stroke-width="24"/>
+      <line x1="311" y1="122" x2="332" y2="75" stroke-width="24"/>
+      <line x1="324" y1="130" x2="351" y2="95" stroke-width="23"/>
+      <line x1="332" y1="142" x2="361" y2="119" stroke-width="21"/>
+      <line x1="287" y1="142" x2="268" y2="106" stroke-width="23.5"/>
+      <g stroke="var(--m-skin)">
+        <line x1="296" y1="122" x2="312" y2="76" stroke-width="17"/>
+        <line x1="311" y1="122" x2="332" y2="75" stroke-width="17"/>
+        <line x1="324" y1="130" x2="351" y2="95" stroke-width="16"/>
+        <line x1="332" y1="142" x2="361" y2="119" stroke-width="14"/>
+        <line x1="287" y1="142" x2="268" y2="106" stroke-width="16.5"/>
+      </g>
+    </g>
+    <path fill="var(--m-skin)" stroke="none" d="M282 186 C276 168 276 146 284 130 C292 118 314 112 332 122 C344 130 346 146 340 160 C334 172 326 182 322 186 Z"/>
+    <path fill="none" d="M279 158 C277 170 279 180 282 186 M340 160 C334 172 326 182 322 186"/>
+  </g>
+  <path id="mjWatch" fill="var(--m-band)" d="M279 180 L322 178 L323 195 L280 197 Z"/>
+  <g id="mjHead" transform="translate(114.5 135.5) rotate(-7.4)">
+    <g id="mjEars">
+      <ellipse fill="var(--m-skin)" cx="-91" cy="30" rx="11" ry="20"/>
+      <path fill="none" stroke-width="2.6" d="M-93 21 C-98 28 -97 37 -91 42"/>
+      <ellipse fill="var(--m-skin)" cx="77" cy="22" rx="8" ry="17"/>
+      <path fill="none" stroke-width="2.6" d="M78 14 C82 20 82 27 78 32"/>
+    </g>
+    <path id="mjFace" fill="var(--m-skin)" d="M-80 -56 C-88 -24 -90 12 -86 36 C-82 64 -52 96 -6 100 C34 98 62 72 70 40 C76 14 76 -22 68 -56 Z"/>
+    <g id="mjHair">
+      <path fill="var(--m-side)" d="M-86 -44 C-90 -20 -90 0 -87 18 L-79 17 C-79 -6 -77 -30 -71 -50 Z"/>
+      <path fill="var(--m-side)" d="M75 -44 C77 -24 77 -6 73 12 L67 10 C69 -10 68 -30 64 -50 Z"/>
+      <path fill="var(--m-hair)" d="M-85 -38 C-91 -60 -90 -88 -81 -106 C-73 -121 -58 -131 -36 -134 C-12 -137 20 -136 44 -130 C62 -125 74 -111 78 -93 C82 -76 81 -56 77 -40 C72 -48 64 -55 54 -58 C38 -62 18 -63 2 -64 C-12 -66 -28 -67 -42 -63 C-56 -59 -68 -52 -76 -46 C-80 -43 -83 -41 -85 -38 Z"/>
+      <path fill="none" stroke="var(--m-hair2)" stroke-width="3" d="M-56 -62 C-53 -88 -46 -110 -34 -126"/>
+      <path fill="none" stroke="var(--m-hair2)" stroke-width="2.4" d="M-42 -80 C-18 -108 24 -120 60 -108"/>
+      <path fill="none" stroke="var(--m-hair2)" stroke-width="2.4" d="M-22 -68 C4 -90 40 -98 70 -86"/>
+    </g>
+    <path id="mjBeard" fill="var(--m-beard)" d="M-86 16 C-90 40 -84 64 -70 80 C-52 98 -28 104 -4 104 C22 104 48 92 60 72 C68 58 72 44 70 30 C64 38 56 44 46 47 C36 40 22 36 10 38 C-2 36 -16 38 -28 42 C-44 40 -62 32 -74 24 C-80 22 -84 19 -86 16 Z"/>
+    <g id="mjFeat">
+      <g id="mjMouth">
+        <path fill="none" stroke="var(--m-skin)" stroke-width="8" d="M-26 46 C-8 42 18 42 34 45 C31 62 20 74 4 75 C-12 75 -23 63 -26 46 Z"/>
+        <path fill="var(--m-mouth)" stroke="none" d="M-26 46 C-8 42 18 42 34 45 C31 62 20 74 4 75 C-12 75 -23 63 -26 46 Z"/>
+        <g clip-path="url(#mjClipM)" stroke="none">
+          <path fill="var(--m-teeth)" d="M-30 30 L40 30 L40 52 C22 50 -8 50 -30 55 Z"/>
+          <ellipse fill="var(--m-tongue)" cx="4" cy="74" rx="16" ry="7"/>
+        </g>
+        <path fill="none" stroke-width="3" d="M-26 46 C-8 42 18 42 34 45 C31 62 20 74 4 75 C-12 75 -23 63 -26 46 Z"/>
+      </g>
+      <path id="mjNose" fill="none" stroke-width="3" d="M0 6 C-6 16 -8 28 2 32 C8 35 16 33 20 27"/>
+      <g id="mjEyeL"><ellipse fill="var(--m-eye)" stroke-width="2.4" cx="-35" cy="0" rx="14" ry="13"/>
+        <g clip-path="url(#mjClipL)" stroke="none"><g class="mj-pupil" transform="translate(3 3)"><circle fill="var(--m-pupil)" cx="-35" cy="0" r="8.5"/><circle fill="var(--m-glint)" cx="-32" cy="-3.5" r="2.4"/></g></g></g>
+      <g id="mjEyeR"><ellipse fill="var(--m-eye)" stroke-width="2.4" cx="36" cy="0" rx="13" ry="13"/>
+        <g clip-path="url(#mjClipR)" stroke="none"><g class="mj-pupil" transform="translate(3 3)"><circle fill="var(--m-pupil)" cx="36" cy="0" r="8.5"/><circle fill="var(--m-glint)" cx="39" cy="-3.5" r="2.4"/></g></g></g>
+      <g id="mjGlasses" fill="none" stroke-width="5">
+        <rect x="-68" y="-28" width="60" height="44" rx="9"/>
+        <rect x="15" y="-26" width="54" height="42" rx="9"/>
+        <path d="M-8 -8 C0 -15 8 -15 15 -10 m-83 -6 L-87 -12 m156 -3 L77 -12"/>
+      </g>
+      <g id="mjBrows" fill="none" stroke-width="6.5" transform="translate(0 -6)">
+        <path d="M-52 -40 C-42 -46 -28 -47 -17 -43"/>
+        <path d="M25 -42 C35 -46 49 -46 59 -40"/>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>
     <div>
-      <span>404&nbsp;error</span>
-      <span>page&nbsp;not&nbsp;found</span>
-    </div>
-    <svg viewBox='0 0 200 600'>
-      <polygon points='118.302698 8 59.5369448 66.7657528 186.487016 193.715824 14 366.202839 153.491505 505.694344 68.1413353 591.044514 200 591.044514 200 8'></polygon>
-    </svg>
-  </div>
-  <svg class='crack' viewBox='0 0 200 600'>
-    <polyline points='118.302698 8 59.5369448 66.7657528 186.487016 193.715824 14 366.202839 153.491505 505.694344 68.1413353 591.044514'></polyline>
-  </svg>
-  <div>
-    <svg viewBox='0 0 200 600'>
-      <polygon points='118.302698 8 59.5369448 66.7657528 186.487016 193.715824 14 366.202839 153.491505 505.694344 68.1413353 591.044514 0 591.044514 0 8'></polygon>
-    </svg>
-    <div>
-      <span>sorry&nbsp;about&nbsp;that!</span>
-      <span>
-        <a href="https://smithgajjar.dev">
-          <b>Check&nbsp;something&nbsp;interesting&nbsp;! <br> smithgajjar.dev</b>
-        </a>
-      </span>
+      <p class="code">404 · page not found</p>
+      <h1>This page isn't here.</h1>
+      <p>omdubey.com is one page now, so an older link can land here. Everything is on the home page.</p>
+      <div class="row">
+        <a class="btn btn-d" href="/">Go to the home page</a>
+        <a class="btn btn-o" href="/#contact">Contact</a>
+      </div>
+      <p class="mail">omdubeyyy@gmail.com</p>
     </div>
   </div>
 </main>
-  </body>
+</body>
 </html>

@@ -1,0 +1,322 @@
+[
+  {
+    "slug": "lucidity",
+    "name": "Lucidity",
+    "file": "lucidity.svg",
+    "kind": "mark",
+    "source": "https://www.lucidity.cloud/",
+    "notes": "Official header logo (inline data-URI SVG, <img alt=\"Lucidity\"> on lucidity.cloud). Mark only: the 4 stacked-layer shapes, green + white merged to one colour."
+  },
+  {
+    "slug": "lucidity",
+    "name": "Lucidity",
+    "file": "lucidity-wordmark.svg",
+    "kind": "wordmark",
+    "source": "https://www.lucidity.cloud/",
+    "notes": "Official header logo lockup (mark + 'Lucidity' name) exactly as on lucidity.cloud, one colour."
+  },
+  {
+    "slug": "uolo",
+    "name": "Uolo",
+    "file": "uolo.svg",
+    "kind": "mark",
+    "source": "https://uolo.com/images/favicon/favicon.ico",
+    "notes": "Uolo's icon is only published as a 32px favicon (purple circle with a white U). Rebuilt as vector: circle with the 'U' glyph from the official wordmark SVG (https://uolo.com/images/logo.svg) knocked out, sized and placed to match the favicon."
+  },
+  {
+    "slug": "uolo",
+    "name": "Uolo",
+    "file": "uolo-wordmark.svg",
+    "kind": "wordmark",
+    "source": "https://uolo.com/images/logo.svg",
+    "notes": "Official 'Uolo' wordmark from the uolo.com header; purple-blue gradient flattened to one colour."
+  },
+  {
+    "slug": "tekie",
+    "name": "Tekie",
+    "file": "tekie.svg",
+    "kind": "mark",
+    "source": "https://web.archive.org/web/20221122155529im_/https://www.tekie.in/favicon.ico",
+    "notes": "Tekie's water-drop 'T' app icon from the archived tekie.in favicon (tekie.in no longer resolves; only a 48px raster exists). Rebuilt as clean vector geometry measured from it: circle + tangent sides, with the T (stem running out through the bottom) knocked out."
+  },
+  {
+    "slug": "tekie",
+    "name": "Tekie",
+    "file": "tekie-wordmark.svg",
+    "kind": "wordmark",
+    "source": "https://web.archive.org/web/20221122155529im_/https://dsd4auyo4ifts.cloudfront.net/landingPage/tekie_ckz35f3dg01220yz16ef307u0_1643661164500.png",
+    "notes": "'Tekie' wordmark (drop as the i's dot) from the header of tekie.in as archived on 22 Nov 2022 (same file still used in Feb 2024). Only a 444x168 PNG exists; traced to vector with my own marching-squares + Bezier-fit tracer (no raster shipped)."
+  },
+  {
+    "slug": "claude",
+    "name": "Claude",
+    "file": "claude.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/claude.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'claude'. Anthropic's Claude spark mark."
+  },
+  {
+    "slug": "openai",
+    "name": "OpenAI",
+    "file": "openai.svg",
+    "kind": "mark",
+    "source": "https://developers.openai.com/",
+    "notes": "OpenAI blossom, inline SVG in the developers.openai.com header (openai.com itself blocks scripted fetches; Simple Icons no longer carries OpenAI)."
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "file": "n8n.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/n8n.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'n8n'."
+  },
+  {
+    "slug": "appsscript",
+    "name": "Google Apps Script",
+    "file": "appsscript.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/googleappsscript.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'googleappsscript'. Slug on Simple Icons is 'googleappsscript'."
+  },
+  {
+    "slug": "apify",
+    "name": "Apify",
+    "file": "apify.svg",
+    "kind": "mark",
+    "source": "https://apify.com/icon0.svg?icon0.0z-sy_vfu_0k9.svg?dpl=a834cddc87",
+    "notes": "Official SVG favicon (three-shape mark), blue/green/orange merged to one colour; gaps between shapes kept."
+  },
+  {
+    "slug": "vercel",
+    "name": "Vercel",
+    "file": "vercel.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/vercel.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'vercel'."
+  },
+  {
+    "slug": "supabase",
+    "name": "Supabase",
+    "file": "supabase.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/supabase.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'supabase'."
+  },
+  {
+    "slug": "lovable",
+    "name": "Lovable",
+    "file": "lovable.svg",
+    "kind": "mark",
+    "source": "https://lovable.dev/favicon.svg",
+    "notes": "Official SVG favicon: the heart outline (the clip shape of the gradient icon) as a solid silhouette."
+  },
+  {
+    "slug": "python",
+    "name": "Python",
+    "file": "python.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/python.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'python'."
+  },
+  {
+    "slug": "hubspot",
+    "name": "HubSpot",
+    "file": "hubspot.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/hubspot.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'hubspot'."
+  },
+  {
+    "slug": "apollo",
+    "name": "Apollo.io",
+    "file": "apollo.svg",
+    "kind": "mark",
+    "source": "https://www.apollo.io/_next/static/media/logo.0pq8s8~3b84w1.svg",
+    "notes": "Apollo.io (sales platform) mark from the apollo.io site header, not Apollo GraphQL."
+  },
+  {
+    "slug": "gong",
+    "name": "Gong",
+    "file": "gong.svg",
+    "kind": "mark",
+    "source": "https://cdn.sanity.io/images/ww20clc6/production/0b50133901322a215dfcf2f3311fc378ffdaacd6-117x42.svg",
+    "notes": "Gong burst mark taken from the official header logo on gong.io (wordmark dropped)."
+  },
+  {
+    "slug": "fathom",
+    "name": "Fathom",
+    "file": "fathom.svg",
+    "kind": "mark",
+    "source": "https://cdn.prod.website-files.com/6899da9beccbdbe92be49b5d/68e7961ff28d093095bdf392_logotype-new.svg",
+    "notes": "Fathom AI notetaker (fathom.video now redirects to fathom.ai), not Fathom Analytics. Three-bar mark from the site header, two blues merged."
+  },
+  {
+    "slug": "nooks",
+    "name": "Nooks",
+    "file": "nooks.svg",
+    "kind": "mark",
+    "source": "https://www.nooks.ai/",
+    "notes": "Nooks mark, inline SVG in the nooks.ai footer (aria-label 'Nooks home')."
+  },
+  {
+    "slug": "smartlead",
+    "name": "Smartlead",
+    "file": "smartlead.svg",
+    "kind": "mark",
+    "source": "https://cdn.prod.website-files.com/6204a703ff61516512c04f55/6920649954ca7f401bd7d57d_footer-new-logo.svg",
+    "notes": "Smartlead app-tile mark from the official footer logo: rounded square with the white symbol knocked out (wordmark dropped)."
+  },
+  {
+    "slug": "heyreach",
+    "name": "HeyReach",
+    "file": "heyreach.svg",
+    "kind": "mark",
+    "source": "https://www.heyreach.io/",
+    "notes": "Waving-hand mark from the inline footer logo on heyreach.io: the hand fill plus the five speed lines (colour gradients flattened); black outline layer dropped, as in the brand's dark-background version."
+  },
+  {
+    "slug": "lusha",
+    "name": "Lusha",
+    "file": "lusha.svg",
+    "kind": "mark",
+    "source": "https://www.lusha.com/wp-content/uploads/2020/06/logo.svg",
+    "notes": "Lusha mark (face with glasses) from the official header logo; wordmark dropped."
+  },
+  {
+    "slug": "linkedin",
+    "name": "LinkedIn",
+    "file": "linkedin.svg",
+    "kind": "mark",
+    "source": "https://brand.linkedin.com/",
+    "notes": "LinkedIn [in] bug from the SVG sprite on brand.linkedin.com (symbol 'linkedin-logo-icon'); 'in' knocked out of the tile, (R) mark dropped. Used for Sales Navigator."
+  },
+  {
+    "slug": "mailchimp",
+    "name": "Mailchimp",
+    "file": "mailchimp.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/mailchimp.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'mailchimp'. Freddie head mark."
+  },
+  {
+    "slug": "lookerstudio",
+    "name": "Looker Studio",
+    "file": "lookerstudio.svg",
+    "kind": "mark",
+    "source": "https://ssl.gstatic.com/analytics-lego/svg/ic_looker_studio.svg",
+    "notes": "Google's Looker Studio product icon (same glyph family as the Looker logo), three blues merged to one colour."
+  },
+  {
+    "slug": "googlesheets",
+    "name": "Google Sheets",
+    "file": "googlesheets.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/googlesheets.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'googlesheets'."
+  },
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "file": "notion.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/notion.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'notion'."
+  },
+  {
+    "slug": "figma",
+    "name": "Figma",
+    "file": "figma.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/figma.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'figma'."
+  },
+  {
+    "slug": "jira",
+    "name": "Jira",
+    "file": "jira.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/jira.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'jira'."
+  },
+  {
+    "slug": "trello",
+    "name": "Trello",
+    "file": "trello.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/trello.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'trello'."
+  },
+  {
+    "slug": "miro",
+    "name": "Miro",
+    "file": "miro.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/miro.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'miro'."
+  },
+  {
+    "slug": "mixpanel",
+    "name": "Mixpanel",
+    "file": "mixpanel.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/mixpanel.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'mixpanel'."
+  },
+  {
+    "slug": "pendo",
+    "name": "Pendo",
+    "file": "pendo.svg",
+    "kind": "mark",
+    "source": "https://www.pendo.io/icon.svg",
+    "notes": "Official Pendo SVG favicon mark (pendo.io)."
+  },
+  {
+    "slug": "freshworks",
+    "name": "Freshworks",
+    "file": "freshworks.svg",
+    "kind": "mark",
+    "source": "https://developers.freshworks.com/_next/static/images/white_logo-dcce86f83db3fe198d3d1642a2bd5eb8.svg",
+    "notes": "Freshworks mark silhouette (rounded leaf: circle with one rounded-square corner). Taken from the vector logo on developers.freshworks.com (www.freshworks.com blocks scripted fetches); its 18 coloured petals were merged and the outer outline re-fitted so no hairline gaps remain. The current mark (82px webp at dam.freshworks.com) has fewer colour facets but the identical outline."
+  },
+  {
+    "slug": "zendesk",
+    "name": "Zendesk",
+    "file": "zendesk.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/zendesk.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'zendesk'."
+  },
+  {
+    "slug": "shopify",
+    "name": "Shopify",
+    "file": "shopify.svg",
+    "kind": "mark",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.37.0/icons/shopify.svg",
+    "notes": "Simple Icons 16.37.0 (CC0), icon 'shopify'."
+  },
+  {
+    "slug": "wati",
+    "name": "WATI",
+    "file": "wati.svg",
+    "kind": "mark",
+    "source": "https://www.wati.io/_astro/images/wati-mark-white.svg",
+    "notes": "Official WATI speech-bubble mark (wati.io); the filled bubble and the outline bubble in one colour."
+  },
+  {
+    "slug": "interakt",
+    "name": "Interakt",
+    "file": "interakt.svg",
+    "kind": "mark",
+    "source": "https://www.interakt.shop/wp-content/uploads/2025/03/Interakt-FAV.svg",
+    "notes": "Official Interakt shopping-bag mark (SVG favicon); the white smile is knocked out."
+  },
+  {
+    "slug": "photoshop",
+    "name": "Adobe Photoshop",
+    "file": "photoshop.svg",
+    "kind": "mark",
+    "source": "https://developer.adobe.com/shared/icons/ps_appicon_64.svg",
+    "notes": "Adobe's own Photoshop app icon as used on developer.adobe.com/photoshop (requested as adobe.io/shared/icons/ps_appicon_64.svg); 'Ps' knocked out of the tile. Simple Icons dropped Adobe icons; adobe.com blocks scripted fetches."
+  }
+]
